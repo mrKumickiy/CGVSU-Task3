@@ -1,6 +1,6 @@
-package ru.edu.vsu.cs.kumitskiy_k_s.triangalization.models;
+package ru.edu.vsu.cs.kumitskiy_k_s.models;
 
-import ru.edu.vsu.cs.kumitskiy_k_s.triangalization.math.Vector3d;
+import ru.edu.vsu.cs.kumitskiy_k_s.math.Vector3d;
 
 import java.util.ArrayList;
 import java.util.List;

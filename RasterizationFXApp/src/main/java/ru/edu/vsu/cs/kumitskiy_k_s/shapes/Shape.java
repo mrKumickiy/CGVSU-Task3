@@ -1,4 +1,4 @@
-package ru.edu.vsu.cs.kumitskiy_k_s.rastarization.shapes;
+package ru.edu.vsu.cs.kumitskiy_k_s.shapes;
 
 import javafx.scene.canvas.GraphicsContext;
 

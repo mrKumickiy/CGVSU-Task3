@@ -1,8 +1,8 @@
-package ru.edu.vsu.cs.kumitskiy_k_s.rastarization.shapes;
+package ru.edu.vsu.cs.kumitskiy_k_s.shapes;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
-import ru.edu.vsu.cs.cg.kumickiy_k_s.task_two.rasterizations.Rasterization;
+import ru.edu.vsu.cs.kumitskiy_k_s.rastarization.Rasterization;
 import ru.edu.vsu.cs.kumitskiy_k_s.rastarization.tools.Vertex;
 
 public class Triangle implements Shape {

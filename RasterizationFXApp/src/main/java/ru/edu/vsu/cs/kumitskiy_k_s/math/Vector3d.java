@@ -1,4 +1,4 @@
-package ru.edu.vsu.cs.kumitskiy_k_s.triangalization.math;
+package ru.edu.vsu.cs.kumitskiy_k_s.math;
 
 public class Vector3d {
     private double x;
@@ -33,5 +33,10 @@ public class Vector3d {
 
     public void setZ(double z) {
         this.z = z;
+    }
+
+    @Override
+    public String toString() {
+        return "X = " + x + ", Y = " + y + ", Z = " + z;
     }
 }

@@ -2,11 +2,10 @@ package com.cgvsu.rasterizationfxapp;
 
 import javafx.fxml.FXML;
 import javafx.scene.canvas.Canvas;
-import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.layout.AnchorPane;
 
-import ru.edu.vsu.cs.kumitskiy_k_s.rastarization.rasterizations.*;
-import javafx.scene.paint.Color;
+import ru.edu.vsu.cs.kumitskiy_k_s.rastarization.Rasterization;
+import ru.edu.vsu.cs.kumitskiy_k_s.rastarization.TriangleRasterizationV1;
 
 public class RasterizationController {
 

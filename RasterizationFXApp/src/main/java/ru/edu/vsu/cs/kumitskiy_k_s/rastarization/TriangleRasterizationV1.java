@@ -1,4 +1,4 @@
-package ru.edu.vsu.cs.kumitskiy_k_s.rastarization.rasterizations;
+package ru.edu.vsu.cs.kumitskiy_k_s.rastarization;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.image.PixelWriter;
