@@ -6,12 +6,25 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Model {
-    private final List<Vector3d> vertices;
-    private final List<Polygon> polygons;
+    private List<Vector3d> vertices;
+    private List<Polygon> polygons;
 
     public Model() {
         vertices = new ArrayList<>();
         polygons = new ArrayList<>();
+    }
+
+    public Model(List<Vector3d> vertices, List<Polygon> polygons) {
+        this.vertices = vertices;
+        this.polygons = polygons;
+    }
+
+    public void setVertices(List<Vector3d> vertices) {
+        this.vertices = vertices;
+    }
+
+    public void setPolygons(List<Polygon> polygons) {
+        this.polygons = polygons;
     }
 
     public List<Vector3d> getVertices() {
