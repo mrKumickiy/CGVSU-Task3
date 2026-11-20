@@ -38,8 +38,13 @@ public class RasterizationController {
                 new Vector3d(250.0, 150.0, 0.0),
                 new Vector3d(400.0, 200.0, 0.0),
                 new Vector3d(400.0, 400.0, 0.0),
-                new Vector3d(250.0, 450.0, 0.0)));
-        model.setPolygons(List.of(new Polygon(List.of(0, 1, 2, 3, 4))));
+                new Vector3d(250.0, 450.0, 0.0),
+                new Vector3d(500.0, 200.0, 0.0),
+                new Vector3d(600.0, 200.0, 0.0),
+                new Vector3d(500.0, 300.0, 0.0),
+                new Vector3d(600.0, 300.0, 0.0)));
+        model.setPolygons(List.of(new Polygon(List.of(0, 1, 2, 3, 4)),
+                new Polygon(List.of(5, 6, 8, 7))));
         TriangulatedModel triangulatedModel = triangulation.triangulate(model);
         for (Polygon trig : triangulatedModel.getPolygons()) {
 

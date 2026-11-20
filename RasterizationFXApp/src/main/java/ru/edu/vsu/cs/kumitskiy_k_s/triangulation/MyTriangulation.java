@@ -10,7 +10,7 @@ public class MyTriangulation implements Triangulation{
     @Override
     public TriangulatedModel triangulate(Model model) {
         if (model == null) {
-            return new TriangulatedModel();
+            return null;
         }
         List<Polygon> triangles = new ArrayList<>();
 
