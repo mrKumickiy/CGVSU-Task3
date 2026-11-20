@@ -1,7 +1,7 @@
-package ru.edu.vsu.cs.kumitskiy_k_s.triangalization;
+package ru.edu.vsu.cs.kumitskiy_k_s.triangulation;
 
 import ru.edu.vsu.cs.kumitskiy_k_s.models.Model;
 
 public interface Triangulation {
-    public TrianglaziedModel triangulation(Model model);
+    public TriangulatedModel triangulate(Model model);
 }

@@ -1,4 +1,4 @@
-package ru.edu.vsu.cs.kumitskiy_k_s.triangalization;
+package ru.edu.vsu.cs.kumitskiy_k_s.triangulation;
 
 import ru.edu.vsu.cs.kumitskiy_k_s.models.Model;
 import ru.edu.vsu.cs.kumitskiy_k_s.models.Polygon;
@@ -8,9 +8,9 @@ import java.util.List;
 
 public class MyTriangulation implements Triangulation{
     @Override
-    public TrianglaziedModel triangulation(Model model) {
+    public TriangulatedModel triangulate(Model model) {
         if (model == null) {
-            return new TrianglaziedModel();
+            return new TriangulatedModel();
         }
         List<Polygon> triangles = new ArrayList<>();
 
@@ -27,6 +27,6 @@ public class MyTriangulation implements Triangulation{
             }
             triangles.addAll(addTrig);
         }
-        return new TrianglaziedModel(model.getVertices(), triangles);
+        return new TriangulatedModel(model.getVertices(), triangles);
     }
 }

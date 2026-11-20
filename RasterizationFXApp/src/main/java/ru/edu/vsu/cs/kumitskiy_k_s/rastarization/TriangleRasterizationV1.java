@@ -116,7 +116,7 @@ public class TriangleRasterizationV1 implements Rasterization {
             Vertex initialVertex = sortedVertices[i];
             int minPointIndex = i;
             for (int j = i + 1; j < sortedVertices.length; j++) {
-                if (sortedVertices[j].getY() < initialVertex.getY()) {
+                if (sortedVertices[j].getY() < sortedVertices[minPointIndex].getY()) {
                     minPointIndex = j;
                 }
             }

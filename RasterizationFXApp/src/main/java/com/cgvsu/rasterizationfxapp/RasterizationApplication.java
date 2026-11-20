@@ -17,10 +17,6 @@ public class RasterizationApplication extends Application {
         stage.setTitle("Rasterization App");
         stage.setScene(scene);
         stage.show();
-
-        Model model = new Model();
-        model.getVertices().add(new Vector3d(1.0,1.0,1.0));
-        System.out.println(model.getVertices().get(0));
     }
 
     public static void main(String[] args) {
